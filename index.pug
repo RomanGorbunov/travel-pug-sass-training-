@@ -1,0 +1,86 @@
+- var pageTitle = 'travel'
+
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    style
+      include css/normalize.css
+      include css/style.css
+  body
+    include modules/header
+    section
+      .main
+        .main__container
+          ul.main__inner
+            li.main_item 
+              h3.main__mintitle Best Destinations around the world
+            li.main_item
+              h1.main__title Travel, enjoy and live a new and full life
+            li.main_item
+              p.main__text Built Wicket longer admire do barton vanity itself do in it.Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
+            .main__button
+              button.main__button-left Find out more
+              a.main__button-audio(href="#")
+              p.main__button-audio-text Play Demo    
+          img.main__photo(src="/images/main.img.png", alt="main")  
+          img.main__photo-decore(src="/images/Decore__header.svg", alt="Decore")
+          img.main__photo-air(src="/images/airline.vector.svg", alt="air")
+          img.main__photo-airline(src="/images/airline.vector.svg", alt="air")
+    section
+      .category
+        h3.category__sector-name CATEGORY
+        h1.category__title We Offer Best Services
+        .category__decore
+          img.category__decore-img(src="/images/category_decore.svg", alt="decore")  
+        .category__inner
+          .category__colum
+            img.category__colum-img(src="/images/gategory_img1.svg", alt="decore")
+            h3.category__colum-subtitle Calculated Weather
+            p.category__colum-text Built Wicket longer admire do barton vanity itself do in it.  
+          .category__colum
+            img.category__colum-img(src="/images/gategory_img4.svg", alt="decore")
+            h3.category__colum-subtitle Best Flights
+            p.category__colum-text Engrossed listening. Park gate sell they west hard for the. 
+          .category__colum
+            img.category__colum-img(src="/images/gategory_img3.svg", alt="decore")
+            h3.category__colum-subtitle Local Events
+            p.category__colum-text Barton vanity itself do in it. Preferd to men it engrossed listening. 
+          .category__colum
+            img.category__colum-img(src="/images/gategory_img2.svg", alt="decore")
+            h3.category__colum-subtitle Customization
+            p.category__colum-text We deliver outsourced aviation services for military customers         
+    section
+      .selling
+        .selling__container
+          h3.selling__subtitle Top Selling
+          h1.selling__title Top Destinations
+          .selling__column
+            .selling__photo
+              img.selling__img(src="/images/selling_photo1.jpg", alt="sell")
+              .selling__discription
+                p.selling__text Rome, Italty
+                p.selling__price $5,42k
+              .selling__discription2  
+                img.selling__nav(src="/images/selling_nav.svg", alt="arrow")
+                p.selling__days-trip 10 Days Trip
+            .selling__photo
+              img.selling__img(src="/images/selling_photo2.jpg", alt="sell")
+              .selling__discription
+                p.selling__text London, UK
+                p.selling__price $4.2k
+              .selling__discription2  
+                img.selling__nav(src="/images/selling_nav.svg", alt="arrow")
+                p.selling__days-trip 12 Days Trip  
+            .selling__photo
+              img.selling__img(src="/images/selling_photo3.jpg", alt="sell")
+              .selling__discription
+                p.selling__text Full Europe
+                p.selling__price $15k
+              .selling__discription2
+                img.selling__nav(src="/images/selling_nav.svg", alt="arrow")
+                p.selling__days-trip 28 Days Trip
+              .selling__decore
+                img(src="/images/selling_decore.svg", alt="decore")      
+              
+    include modules/footer
